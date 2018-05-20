@@ -30,7 +30,8 @@ class MoneyCalculator extends Component {
     }
     render() {
         return (
-            <div>
+            /* CSS property is passed in <div> tag */
+            <div style={{margin:'auto', textAlign:'center'}}>
                 <h1>Coins Sum</h1>
                 <Operands operand={1} handleClick={this.calculateValue} />
                 <span> </span>
